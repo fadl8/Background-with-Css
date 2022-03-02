@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100vh; 
+    box-shadow: 10px 0 10px rgba(0, 0,0,0.25);
+
+}
+
+.layer-one{
+    background: #03a9f4;
+    transform: skewX(-45deg) translateX(0);
+    z-index: 1;
+}
+
+.layer-tow{
+    background: #fff;
+    transform: skewX(-45deg) translateX(-100px);
+    z-index: 3;
+}
+
+
+.layer-three{
+    background: #ff3161;
+    transform: skewX(-45deg) translateX(-200px);
+    z-index: 5;
+}
+
+
+.layer-fore{
+    background: #222;
+    transform: skewX(-45deg) translateX(-300px);
+    z-index: 10;
+}
+
+
+.layer-five{
+    background: #ff3161;
+    transform: skewX(45deg) translateX(0px);
+    z-index: 2;
+}
+
+.layer-six{
+    background: #03a9f4;
+    transform: skewX(45deg) translateX(-100px);
+    z-index: 4;
+}
+
+
+.layer-saven{
+    background: #fff;
+    transform: skewX(45deg) translateX(-200px);
+    z-index: 6;
+}
+
+.layer-eghit{
+    background: #222;
+    transform: skewX(45deg) translateX(-300px);
+    z-index: 8;
+}
+
+.layer-nine{
+    background: transparent;
+    transform: skewX(45deg) translateX(-300px);
+    z-index: 10;
+}
+ 
